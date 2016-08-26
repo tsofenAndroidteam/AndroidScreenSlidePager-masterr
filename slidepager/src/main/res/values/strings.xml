@@ -2,4 +2,6 @@
     <string name="app_name">SlidePager</string>
     <string name="action_indicator_circle">CircleIndicator</string>
     <string name="action_indicator_fraction">FractionIndicator</string>
+    <string name="view_book">View Book</string>
+
 </resources>

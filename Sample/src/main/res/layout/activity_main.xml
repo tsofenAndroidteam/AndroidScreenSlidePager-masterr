@@ -4,22 +4,21 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <TextView
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_width="150dp"
+
+    <ImageView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_purple"
-        android:gravity="center"
-        android:paddingBottom="50dp"
-        android:paddingTop="50dp"
-        android:text="べっぴんさん"
-        android:textColor="@android:color/white" />
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/book_small"
+
+        />
 
     <Button
         android:onClick="viewPictures"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="写真を見る" />
+        android:text='@string/view_book'
+        />
 
 </LinearLayout>
